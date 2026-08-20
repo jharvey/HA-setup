@@ -1,21 +1,49 @@
-++++++ Hardware
-current equipment
--- WD 4TB Purple
--- Seagate 4TB 
--- SSD 4TB
+# Project Core Objective
+To deploy a highly resilient, local-first Smart Home and Network Attached Storage (NAS) ecosystem. This system integrates Home Assistant for automation control, Frigate NVR for AI-powered video surveillance, Cloud storage for my Daughter who's in college, OpenShot video editing for my son's baseball efforts, and secure data storage using the foundation defined in the repository: https://github.com/jharvey/HA-setup.git.
 
-on order equipment
--- DIYPC DIY-S05-BK Black USB3.0 Steel ATX Mid Tower Computer Case, 3 x120mm Black https://www.ebay.com/itm/297252772541
--- Assassin King 120 SE White ARGB CPU Air Cooler, AK120 https://www.ebay.com/itm/377205789859
--- Intel Core i5-12500T 6-Core 2.0GHz SRL5W CPU Processor https://www.ebay.com/itm/188807399513
--- MSI MAG A750GL PCIE 5 750W ATX 3.1 Full Modular 80 Plus Gold Gaming Power Supply https://www.ebay.com/itm/158029037791
--- KingSpec DDR4 RAM 32GB (2 x 16GB) 288-Pin DDR4 SDRAM Memory Module 3200 MHz 288-Pin UDIMM with Heatsink for Computer Desktop PC Memories Module Gaming https://www.newegg.com/kingspec-ddr4-pc-series-32gb-ddr4-3200-cas-latency-cl18-memory-red/p/0RN-00FW-00033
--- GIGABYTE Z690 UD DDR4 LGA 1700 Intel Z690 ATX Motherboard with DDR4, Triple M.2, PCIe 5.0, USB 3.2 Gen2X2 Type-C, 2.5GbE LAN https://www.newegg.com/gigabyte-z690-ud-ddr4-atx-intel-motherboard-intel-z690-lga-1700-dedicated-lga1700-mounting-bracket-is-required/p/N82E16813145349
--- TPU adapter board https://www.makerfabs.com/dual-edge-tpu-adapter.html
+## 1. System Architecture & Hardware Stack
+-- CPU -- Intel Core i5-12500T 6-Core 2.0GHz SRL5W CPU Processor https://www.ebay.com/itm/188807399513
+-- Motherboard -- GIGABYTE Z690 UD DDR4 LGA 1700 Intel Z690 ATX Motherboard with DDR4, Triple M.2, PCIe 5.0, USB 3.2 Gen2X2 Type-C, 2.5GbE LAN https://www.newegg.com/gigabyte-z690-ud-ddr4-atx-intel-motherboard-intel-z690-lga-1700-dedicated-lga1700-mounting-bracket-is-required/p/N82E16813145349
+-- RAM -- KingSpec DDR4 RAM 32GB (2 x 16GB) 288-Pin DDR4 SDRAM Memory Module 3200 MHz 288-Pin UDIMM with Heatsink for Computer Desktop PC Memories Module Gaming https://www.newegg.com/kingspec-ddr4-pc-series-32gb-ddr4-3200-cas-latency-cl18-memory-red/p/0RN-00FW-00033
+-- Enclosure -- DIYPC DIY-S05-BK Black USB3.0 Steel ATX Mid Tower Computer Case, 3 x120mm Black https://www.ebay.com/itm/297252772541
+-- CPU fan -- Assassin King 120 SE White ARGB CPU Air Cooler, AK120 https://www.ebay.com/itm/377205789859
+-- Power supply -- MSI MAG A750GL PCIE 5 750W ATX 3.1 Full Modular 80 Plus Gold Gaming Power Supply https://www.ebay.com/itm/158029037791
+-- extra processor -- TPU adapter board https://www.makerfabs.com/dual-edge-tpu-adapter.html
+-- hard drives -- WD 4TB Purple, Seagate 4TB SSD 4TB https://github.com/jharvey/HA-setup/blob/master/HDD's.jpg
 
-Planned upgrades
--- NVIDIA GeForce RTX 4060 Ti 16GB https://www.jawa.gg/parts/gpus/geforce-rtx-4060-ti-16gb-913cd8
+Planned upgrades not obtained yet. 
+-- GPU -- NVIDIA GeForce RTX 4060 Ti 16GB https://www.jawa.gg/parts/gpus/geforce-rtx-4060-ti-16gb-913cd8
 
+
+
+## 2. Software Stack & Integration Map
+*   **Base OS:** [e.g., Proxmox VE, TrueNAS Scale, Unraid, Ubuntu Server + Docker]
+*   **Core Services:**
+    *   **Home Assistant:** [e.g., Home Assistant OS (HAOS) VM or Home Assistant Container]
+    *   **Network Attached Storage (NAS):** [e.g., Samba/NFS shares, TrueNAS app, Nextcloud container]
+    *   **Frigate NVR:** Docker container utilizing Coral/GPU hardware acceleration.
+    *   **MQTT Broker:** Eclipse Mosquitto (required for Frigate-to-Home Assistant communication).
+*   **Target Features:**
+    *   [e.g., Local object detection for person/vehicle tracking]
+    *   [e.g., Automated object-detection notifications via Telegram/Signal]
+    *   [e.g., Automated snapshots/backups of Home Assistant to the NAS array]
+
+## 3. Current Implementation Status (The "State of the Project")
+*   [ ] **Phase 0.1: acquire parts
+*   [ ] **Phase 1: Base Infrastructure** – Base OS installed; storage arrays formatted; Docker/Hypervisor running.
+*   [ ] **Phase 2: Repository Deployment** – Cloned `HA-setup.git` and configured initial environment variables.
+*   [ ] **Phase 3: Core Services** – Home Assistant running; Zigbee/Z-Wave bridges connected.
+*   [ ] **Phase 4: NVR Pipeline** – Frigate container deployed; hardware acceleration active; camera RTSP streams connected.
+*   [ ] **Phase 5: Automation & Maintenance** – MQTT linked; AI object triggers active; automatic daily backups verified.
+
+## 4. Immediate Next Steps
+1. Define the baseline operating system and container management framework.
+2. Review the existing docker-compose / configuration files in the `HA-setup` repository.
+3. Map out the hardware passthrough paths for the AI detector and local storage pools.
+
+
+
+Older notes below. 
 
 ++++++ Software plan
 -- Debian 12
