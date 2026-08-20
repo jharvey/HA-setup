@@ -8,7 +8,8 @@ To deploy a highly resilient, local-first Smart Home and Network Attached Storag
 -- Enclosure -- DIYPC DIY-S05-BK Black USB3.0 Steel ATX Mid Tower Computer Case, 3 x120mm Black https://www.ebay.com/itm/297252772541
 -- CPU fan -- Assassin King 120 SE White ARGB CPU Air Cooler, AK120 https://www.ebay.com/itm/377205789859
 -- Power supply -- MSI MAG A750GL PCIE 5 750W ATX 3.1 Full Modular 80 Plus Gold Gaming Power Supply https://www.ebay.com/itm/158029037791
--- extra processor -- TPU adapter board https://www.makerfabs.com/dual-edge-tpu-adapter.html
+-- TPU -- Google Coral M.2 Accelerator A+E Key M.2 2230 PCIe Gen2 x1 (Single Core) (S/N):S6ANCX003196YEZ 
+-- extra processor adapter board -- TPU adapter board https://www.makerfabs.com/dual-edge-tpu-adapter.html
 -- hard drives -- WD 4TB Purple, Seagate 4TB SSD 4TB https://github.com/jharvey/HA-setup/blob/master/HDD's.jpg
 
 Planned upgrades not obtained yet. 
