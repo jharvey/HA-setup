@@ -1,0 +1,33 @@
+++++++ Hardware
+current equipment
+-- WD 4TB Purple
+-- Seagate 4TB 
+-- SSD 4TB
+
+on order equipment
+-- DIYPC DIY-S05-BK Black USB3.0 Steel ATX Mid Tower Computer Case, 3 x120mm Black https://www.ebay.com/itm/297252772541
+-- Assassin King 120 SE White ARGB CPU Air Cooler, AK120 https://www.ebay.com/itm/377205789859
+-- Intel Core i5-12500T 6-Core 2.0GHz SRL5W CPU Processor https://www.ebay.com/itm/188807399513
+-- MSI MAG A750GL PCIE 5 750W ATX 3.1 Full Modular 80 Plus Gold Gaming Power Supply https://www.ebay.com/itm/158029037791
+-- KingSpec DDR4 RAM 32GB (2 x 16GB) 288-Pin DDR4 SDRAM Memory Module 3200 MHz 288-Pin UDIMM with Heatsink for Computer Desktop PC Memories Module Gaming https://www.newegg.com/kingspec-ddr4-pc-series-32gb-ddr4-3200-cas-latency-cl18-memory-red/p/0RN-00FW-00033
+-- GIGABYTE Z690 UD DDR4 LGA 1700 Intel Z690 ATX Motherboard with DDR4, Triple M.2, PCIe 5.0, USB 3.2 Gen2X2 Type-C, 2.5GbE LAN https://www.newegg.com/gigabyte-z690-ud-ddr4-atx-intel-motherboard-intel-z690-lga-1700-dedicated-lga1700-mounting-bracket-is-required/p/N82E16813145349
+-- TPU adapter board https://www.makerfabs.com/dual-edge-tpu-adapter.html
+
+Planned upgrades
+-- NVIDIA GeForce RTX 4060 Ti 16GB https://www.jawa.gg/parts/gpus/geforce-rtx-4060-ti-16gb-913cd8
+
+
+++++++ Software plan
+-- Debian 12
+-- ProxMox
+-- Docker
+-- Home assistant
+-- Frigate
+-- NAS
+-- Daughter remote storage 
++ she uploades audio, 
++ Buzz for dictation 
+-- OpenShot for Son's baseball video's
+
+++++++ Other equipment
+-- Oddysee Blue with Coral TPU's
