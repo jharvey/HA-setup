@@ -9,7 +9,7 @@ To deploy a highly resilient, local-first Smart Home and Network Attached Storag
 -- CPU fan -- Assassin King 120 SE White ARGB CPU Air Cooler, AK120 https://www.ebay.com/itm/377205789859
 -- Power supply -- MSI MAG A750GL PCIE 5 750W ATX 3.1 Full Modular 80 Plus Gold Gaming Power Supply https://www.ebay.com/itm/158029037791
 -- TPU -- Google Coral M.2 Accelerator A+E Key M.2 2230 PCIe Gen2 x1 (Single Core) (S/N):S6ANCX003196YEZ 
--- extra processor adapter board -- TPU adapter board https://www.makerfabs.com/dual-edge-tpu-adapter.html
+-- extra processor adapter board -- TPU adapter board E-key slots to dual-M-key https://www.makerfabs.com/dual-edge-tpu-adapter.html
 -- hard drives -- WD 4TB Purple, Seagate 4TB SSD 4TB https://github.com/jharvey/HA-setup/blob/master/HDD's.jpg
 -- Proxmox Host IP: 192.168.0.198 (connected via built-in 2.5GbE motherboard port to the main LAN).
 -- Primary LAN Range: 192.168.0.x.
@@ -19,6 +19,7 @@ Planned upgrades not obtained yet.
 -- GPU -- NVIDIA GeForce RTX 4060 Ti 16GB https://www.jawa.gg/parts/gpus/geforce-rtx-4060-ti-16gb-913cd8
 -- Isolated Video Network Plan: Planning a dedicated, internet-isolated physical subnet using a USB dongle. 
 -- better case fans with RPM feedback to alarm and react if fan's fail. 
+-- perhaps replace "extra processor adapter board" the one I have burnt up, it's junk. I apparently don't have dual TPU, the one I have physically installed just fine. can I confirm if I have a single or a dual? I think it's a single.  
 
 
 
@@ -44,10 +45,10 @@ Planned upgrades not obtained yet.
 *   [ ] **Phase 5: Automation & Maintenance** – MQTT linked; AI object triggers active; automatic daily backups verified.
 
 ## 4. Immediate Next Steps
-1. Define the baseline operating system and container management framework.
-2. Review the existing docker-compose / configuration files in the `HA-setup` repository.
-3. Map out the hardware passthrough paths for the AI detector and local storage pools.
-
+1 Log into the new Debian 12 server command line.
+2 Install Docker and Docker Compose.
+3 Pass through the Google Coral TPU hardware layers from Proxmox into the Debian 12 environment.
+4 Mount the two physical 4TB mechanical storage drives (WD Purple and Seagate SkyHawk) into Proxmox as a localized NAS storage pool.
 
 
 Older notes below. 
