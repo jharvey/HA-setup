@@ -11,9 +11,12 @@ To deploy a highly resilient, local-first Smart Home and Network Attached Storag
 -- TPU -- Google Coral M.2 Accelerator A+E Key M.2 2230 PCIe Gen2 x1 (Single Core) (S/N):S6ANCX003196YEZ 
 -- extra processor adapter board -- TPU adapter board https://www.makerfabs.com/dual-edge-tpu-adapter.html
 -- hard drives -- WD 4TB Purple, Seagate 4TB SSD 4TB https://github.com/jharvey/HA-setup/blob/master/HDD's.jpg
+-- Proxmox Host IP: 192.168.0.198 (connected via built-in 2.5GbE motherboard port to the main LAN).
+-- Primary LAN Range: 192.168.0.x.
 
 Planned upgrades not obtained yet. 
 -- GPU -- NVIDIA GeForce RTX 4060 Ti 16GB https://www.jawa.gg/parts/gpus/geforce-rtx-4060-ti-16gb-913cd8
+-- Isolated Video Network Plan: Planning a dedicated, internet-isolated physical subnet using a PCIe network expansion card (Intel i210 Gigabit or similar) specifically for camera tracking traffic to eliminate high-volume stream congestion.
 
 
 
