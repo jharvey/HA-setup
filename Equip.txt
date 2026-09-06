@@ -14,6 +14,7 @@ To deploy a highly resilient, local-first Smart Home and Network Attached Storag
 -- Proxmox Host IP: 192.168.0.198 (connected via built-in 2.5GbE motherboard port to the main LAN).
 -- Primary LAN Range: 192.168.0.x.
 -- Breezeline Cable internet. 
+-- TP-Link TPSG1428PE switch
 
 Planned upgrades not obtained yet. 
 -- GPU -- NVIDIA GeForce RTX 4060 Ti 16GB https://www.jawa.gg/parts/gpus/geforce-rtx-4060-ti-16gb-913cd8
