@@ -30,8 +30,9 @@ Planned upgrades not obtained yet.
     *   [e.g., Automated snapshots/backups of Home Assistant to the NAS array]
 
 ## 3. Current Implementation Status (The "State of the Project")
-*   [ ] **Phase 0.1: acquire parts
-*   [ ] **Phase 1: Base Infrastructure** – Base OS installed; storage arrays formatted; Docker/Hypervisor running.
+*   [x] **Phase 0.1: acquire parts
+*   [x] **Phase 1: Base Infrastructure** – Base OS installed; storage arrays formatted; Docker/Hypervisor running.
+*   [x] Debian 12 Virtual Machine: Successfully provisioned via the Proxmox ISO installer, allocated 4 CPU cores, 4GB RAM, and a 64GB/100GB disk partition.
 *   [ ] **Phase 2: Repository Deployment** – Cloned `HA-setup.git` and configured initial environment variables.
 *   [ ] **Phase 3: Core Services** – Home Assistant running; Zigbee/Z-Wave bridges connected.
 *   [ ] **Phase 4: NVR Pipeline** – Frigate container deployed; hardware acceleration active; camera RTSP streams connected.
